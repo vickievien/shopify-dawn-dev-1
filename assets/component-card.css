@@ -360,6 +360,7 @@
 
 .card-information>.price {
   color: rgb(var(--color-foreground));
+  font-weight: 700;
 }
 
 .card--horizontal .card-information>.price {
