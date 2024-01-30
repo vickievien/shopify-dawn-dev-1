@@ -54,7 +54,7 @@
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -71,6 +71,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "color_bg": "#e4e2e2",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
