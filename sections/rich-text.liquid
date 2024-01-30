@@ -6,6 +6,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .rich-text {
+      background-color: {{ section.settings.color_bg }}
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -146,8 +150,8 @@
     },
     {
       "type": "color",
-      "id": "color_rich-text-bg",
-      "label": "t:sections.rich-text.settings.background_color",
+      "id": "color_bg",
+      "label": "Color Background",
       "default": "#ffffff"
     },
     {
